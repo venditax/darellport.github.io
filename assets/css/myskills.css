@@ -1,0 +1,167 @@
+.progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+/* PROGRES BAR */
+#phpskills{
+    background: #6082bb!important;
+}
+#csskills{
+    background: #9b4f97!important;
+}
+#javaskills{
+    background: #cb3132!important;
+}
+#aspskills, #vbskills, #mvc5skills{
+    background: #1f82c6!important;
+}
+
+#htmlskills{
+    background: #f16529!important;
+}
+#cssskills{
+    background: #1ba8e0!important;
+}
+#jscriptskills{
+    background: #fdd83c!important;
+}
+#jqskills{
+    background: #193556!important;
+}
+#angularskills{
+    background: #df2e31!important;
+}
+#vueskills{
+    background: #41b883!important;
+}
+#bootstrapskills{
+    background: #563e7c!important;
+}
+
+#mysqlskills{
+    background: #00688f!important;
+}
+#msqlskills{
+    background: #a01d23!important;
+}
+
+#wordpressskills{
+    background: #21759b!important;
+}
+
+#laravelskills{
+    background: #f35045!important;
+}
+#ciskills{
+    background: #ee4323!important;
+}
+
+#ionicskills{
+    background: #478aff!important;
+}
+#unityskills{
+    background: #222c37!important;
+}
+#androidsskills{
+    background: #82b64a!important;
+}
+/* BORDER LAYOUT */
+.title-skills-php{
+    border: 2px solid #6082bb;
+    margin-bottom: 10px;
+}
+.title-skills-cs{
+    border: 2px solid #9b4f97;
+    margin-bottom: 10px;
+}
+.title-skills-java{
+    border: 2px solid #cb3132;
+    margin-bottom: 10px;
+}
+.title-skills-asp, .title-skills-vb, .title-skills-mvc5{
+    border: 2px solid #1f82c6;
+    margin-bottom: 10px;
+}
+
+.title-skills-html{
+    border: 2px solid #f16529;
+    margin-bottom: 10px;
+}
+.title-skills-css{
+    border: 2px solid #1ba8e0;
+    margin-bottom: 10px;
+}
+.title-skills-jscript{
+    border: 2px solid #fdd83c;
+    margin-bottom: 10px;
+}
+.title-skills-jq{
+    border: 2px solid #193556;
+    margin-bottom: 10px;
+}
+.title-skills-angular{
+    border: 2px solid #df2e31;
+    margin-bottom: 10px;
+}
+.title-skills-vue{
+    border: 2px solid #41b883;
+    margin-bottom: 10px;
+}
+.title-skills-bootstrap{
+    border: 2px solid #563e7c;
+    margin-bottom: 10px;
+}
+
+.title-skills-mysql{
+    border: 2px solid #00688f;
+    margin-bottom: 10px;
+}
+.title-skills-mssql{
+    border: 2px solid #a01d23;
+    margin-bottom: 10px;
+}
+
+.title-skills-wordpress{
+    border: 2px solid #21759b;
+    margin-bottom: 10px;
+}
+
+.title-skills-laravel{
+    border: 2px solid #f35045;
+    margin-bottom: 10px;
+}
+.title-skills-ci{
+    border: 2px solid #ee4323;
+    margin-bottom: 10px;
+}
+
+.title-skills-ionic{
+    border: 2px solid #478aff;
+    margin-bottom: 10px;
+}
+.title-skills-unity{
+    border: 2px solid #222c37;
+    margin-bottom: 10px;
+}
+.title-skills-androids{
+    border: 2px solid #82b64a;
+    margin-bottom: 10px;
+}
+
+/* PADDING LAYOUT */
+.title-skills-php, .title-skills-cs, .title-skills-java, .title-skills-asp, .title-skills-vb, 
+.title-skills-html, .title-skills-css, .title-skills-jscript, .title-skills-jq, .title-skills-angular, .title-skills-vue, .title-skills-bootstrap,
+.title-skills-mysql, .title-skills-mssql, 
+.title-skills-wordpress,
+.title-skills-laravel, .title-skills-ci, .title-skills-mvc5, 
+.title-skills-ionic, .title-skills-unity, .title-skills-androids{
+    padding: 15px;
+    border-radius: 5px;
+}
